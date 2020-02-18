@@ -67,7 +67,6 @@ set nobackup
 set noswapfile
 set fileformats=unix,dos,mac
 syntax on
-set ruler
 set number
 set gcr=a:blinkon0
 set scrolloff=3
@@ -82,6 +81,8 @@ set autoread
 set noerrorbells visualbell t_vb=
 set mouse=a
 set whichwrap=b,s,h,l,<,>,[,]
+set clipboard+=unnamedplus
+set statusline+=%{fugitive#statusline()}
 
 "" colorscheme
 colorscheme farout
