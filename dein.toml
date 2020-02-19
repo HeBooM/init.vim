@@ -19,7 +19,6 @@ let g:NERDTreeMapOpenInTabSilent = '<RightMouse>'
 let g:NERDTreeWinSize = 30
 let NERDTreeShowHidden=1
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*.pyc,*.db,*.sqlite
-autocmd BufWritePre * :FixWhitespace
 nnoremap <Leader>dir :NERDTreeTabsToggle<CR>
 nnoremap <Leader>f :NERDTreeFocusToggle<CR>
 augroup NERD
@@ -34,6 +33,9 @@ repo='fcpg/vim-farout'
 
 [[plugins]]
 repo='bronson/vim-trailing-whitespace'
+hook_add='''
+let g:extra_whitespace_ignored_filetypes = ['markdown']
+'''
 
 [[plugins]]
 repo='cespare/vim-toml'
