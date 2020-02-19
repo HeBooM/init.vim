@@ -51,6 +51,7 @@ set fileencodings=utf-8
 set bomb
 set binary
 set ttyfast
+set cmdheight=2
 set backspace=indent,eol,start
 set tabstop=4
 set softtabstop=0
