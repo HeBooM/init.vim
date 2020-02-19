@@ -6,9 +6,8 @@
 - Ubuntu  
   `sudo apt install neovim`
 
-- RHEL  
-  `sudo yum install neovim`  
-  This is not recommended
+- RHEL *This is not recommended  
+  `sudo yum install neovim`
 
 - Install from git
   ```
