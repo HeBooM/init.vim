@@ -40,7 +40,7 @@ repo='cespare/vim-toml'
 
 # fzfインストールした部分をrepoにする
 [[plugins]]
-repo = '~/project/fzf'
+repo = '~/.fzf'
 build_on = '''
 ./install -all
 '''
